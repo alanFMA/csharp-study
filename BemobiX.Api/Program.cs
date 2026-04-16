@@ -4,6 +4,7 @@ using BemobiX.Infrastructure.ExternalServices;
 using Microsoft.EntityFrameworkCore;
 using BemobiX.Infrastructure.Data;
 using BemobiX.Infrastructure.Repositories;
+using BemobiX.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,9 @@ builder.Services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// 3. AQUI ESTÁ A CORREÇÃO: O registro da Aplicação ANTES do Build
+builder.Services.AddScoped<ISubscriptionService, ISubscriptionService>();
+
 // --- 2. CONSTRUÇÃO DA APLICAÇÃO ---
 var app = builder.Build();
 
@@ -30,7 +34,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthorization();
 // AVISO IMPORTANTE: Mapeia as rotas HTTP para os Controllers registrados
 app.MapControllers(); 
 

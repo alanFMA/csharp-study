@@ -13,3 +13,4 @@ C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Infrastructure\obj\Debug\net8.0\B
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Infrastructure\obj\Debug\net8.0\refint\BemobiX.Infrastructure.dll
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Infrastructure\obj\Debug\net8.0\BemobiX.Infrastructure.pdb
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Infrastructure\obj\Debug\net8.0\ref\BemobiX.Infrastructure.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Infrastructure\obj\Debug\net8.0\BemobiX.Infrastructure.sourcelink.json

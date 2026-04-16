@@ -13,3 +13,4 @@ C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\Bemo
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\refint\BemobiX.Application.dll
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.pdb
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\ref\BemobiX.Application.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.sourcelink.json

@@ -107,3 +107,6 @@ C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\ru\Microsoft
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\BemobiX.Application.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\bin\Debug\net8.0\BemobiX.Application.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Api\obj\Debug\net8.0\BemobiX.Api.sourcelink.json
