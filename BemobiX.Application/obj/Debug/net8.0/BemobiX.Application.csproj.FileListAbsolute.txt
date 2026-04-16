@@ -1,0 +1,15 @@
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\bin\Debug\net8.0\BemobiX.Application.deps.json
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\bin\Debug\net8.0\BemobiX.Application.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\bin\Debug\net8.0\BemobiX.Application.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\bin\Debug\net8.0\BemobiX.Domain.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\bin\Debug\net8.0\BemobiX.Domain.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.csproj.AssemblyReference.cache
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.AssemblyInfoInputs.cache
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.AssemblyInfo.cs
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.csproj.CoreCompileInputs.cache
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX..001B8EE8.Up2Date
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\refint\BemobiX.Application.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\BemobiX.Application.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Application\obj\Debug\net8.0\ref\BemobiX.Application.dll

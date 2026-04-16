@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BemobiX.Application/1.0.0": {
+        "dependencies": {
+          "BemobiX.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BemobiX.Application.dll": {}
+        }
+      },
+      "BemobiX.Domain/1.0.0": {
+        "runtime": {
+          "BemobiX.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BemobiX.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BemobiX.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

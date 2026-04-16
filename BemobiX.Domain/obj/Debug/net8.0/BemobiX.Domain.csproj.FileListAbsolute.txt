@@ -1,0 +1,11 @@
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\bin\Debug\net8.0\BemobiX.Domain.deps.json
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\bin\Debug\net8.0\BemobiX.Domain.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\bin\Debug\net8.0\BemobiX.Domain.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.AssemblyInfoInputs.cache
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.AssemblyInfo.cs
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\refint\BemobiX.Domain.dll
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\BemobiX.Domain.pdb
+C:\Users\alan.andrade\workspace\Bemobi\BemobiX.Domain\obj\Debug\net8.0\ref\BemobiX.Domain.dll

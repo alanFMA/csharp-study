@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Api\\BemobiX.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Api\\BemobiX.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Api\\BemobiX.Api.csproj",
+        "projectName": "BemobiX.Api",
+        "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Api\\BemobiX.Api.csproj",
+        "packagesPath": "C:\\Users\\alan.andrade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\BemobiX.Application.csproj": {
+                "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\BemobiX.Application.csproj"
+              },
+              "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj": {
+                "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj"
+              },
+              "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\BemobiX.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\BemobiX.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\BemobiX.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\BemobiX.Application.csproj",
+        "projectName": "BemobiX.Application",
+        "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\BemobiX.Application.csproj",
+        "packagesPath": "C:\\Users\\alan.andrade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj": {
+                "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj",
+        "projectName": "BemobiX.Domain",
+        "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj",
+        "packagesPath": "C:\\Users\\alan.andrade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\BemobiX.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\BemobiX.Infrastructure.csproj",
+        "projectName": "BemobiX.Infrastructure",
+        "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\BemobiX.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alan.andrade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj": {
+                "projectPath": "C:\\Users\\alan.andrade\\workspace\\Bemobi\\BemobiX.Domain\\BemobiX.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
