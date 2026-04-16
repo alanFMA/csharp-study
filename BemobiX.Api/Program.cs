@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using BemobiX.Infrastructure.Data;
 using BemobiX.Infrastructure.Repositories;
 using BemobiX.Application.Interfaces;
+using BemobiX.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 3. AQUI ESTÁ A CORREÇÃO: O registro da Aplicação ANTES do Build
-builder.Services.AddScoped<ISubscriptionService, ISubscriptionService>();
+builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
 
 // --- 2. CONSTRUÇÃO DA APLICAÇÃO ---
 var app = builder.Build();

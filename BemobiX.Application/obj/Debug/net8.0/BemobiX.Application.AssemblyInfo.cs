@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BemobiX.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70a57a4bd273b5e08891a1bfc436bef4aaeff18b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69dd4e453717c3678daf40b10ec919dffe9b4ee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BemobiX.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BemobiX.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
