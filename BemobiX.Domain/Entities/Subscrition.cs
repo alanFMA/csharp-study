@@ -11,6 +11,9 @@ public class Subscription
     // Construtor para garantir que a assinatura nasça em um estado válido
     public Subscription(Guid userId, string planName, decimal price)
     {
+        if (price <= 0)
+            throw new ArgumentException("Uma assinatura não pode ter valor zero ou negativo.");
+            
         Id = Guid.NewGuid();
         UserId = userId;
         PlanName = planName;

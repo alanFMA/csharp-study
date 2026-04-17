@@ -24,23 +24,11 @@ public class BillingController : ControllerBase
     [HttpPost("subscriptions")]
     public async Task<IActionResult> Create([FromBody] CreateSubscriptionDto dto)
     {
-        try 
-        {
-            // Chamamos o Caso de Uso na camada de Application
-            var result = await _subscriptionService.CreateSubscriptionAsync(dto);
+        // 1. O Controller só faz a chamada
+        var result = await _subscriptionService.CreateSubscriptionAsync(dto);
 
-            // Retornamos 201 Created com o objeto criado
-            return CreatedAtAction(nameof(Create), new { id = result.Id }, result);
-        }
-        catch (InvalidOperationException ex)
-        {
-            // Se o sistema legado falhar, capturamos a exceção de negócio
-            return BadRequest(new { error = ex.Message });
-        }
-        catch (Exception)
-        {
-            // Erros inesperados (ex: banco fora do ar) retornam 500
-            return StatusCode(500, "Ocorreu um erro interno ao processar a assinatura.");
-        }
+        // 2. E retorna o sucesso.
+        // Se der erro de validação ou de banco, o Middleware cuidará disso!
+        return CreatedAtAction(nameof(Create), new { id = result.Id }, result);
     }
 }

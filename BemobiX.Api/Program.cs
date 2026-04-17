@@ -6,6 +6,7 @@ using BemobiX.Infrastructure.Data;
 using BemobiX.Infrastructure.Repositories;
 using BemobiX.Application.Interfaces;
 using BemobiX.Application.Services;
+using BemobiX.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,9 @@ builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
 var app = builder.Build();
 
 // --- 3. PIPELINE DE REQUISIÇÃO (A ordem importa!) ---
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
