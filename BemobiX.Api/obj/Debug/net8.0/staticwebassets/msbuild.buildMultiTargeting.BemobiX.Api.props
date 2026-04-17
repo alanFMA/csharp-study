@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\BemobiX.Api.props" />
-</Project>

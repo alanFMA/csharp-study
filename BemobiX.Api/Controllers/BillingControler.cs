@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using BemobiX.Application.Interfaces;
 using BemobiX.Application.DTOs;
+using BemobiX.Domain.Entities;
 
 namespace BemobiX.Api.Controllers;
 
@@ -17,6 +18,9 @@ public class BillingController : ControllerBase
         _subscriptionService = subscriptionService;
     }
 
+    [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Subscription))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpPost("subscriptions")]
     public async Task<IActionResult> Create([FromBody] CreateSubscriptionDto dto)
     {
